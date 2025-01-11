@@ -1,7 +1,6 @@
 # Conveyor Belt Fault Detection System
 
 This project aims to provide an efficient solution for detecting faults in conveyor belts using advanced technologies such as computer vision, ultrasonic sensors, and machine learning. The system can identify damages, cracks, and abnormalities in conveyor belts and measure their thickness, ensuring enhanced operational efficiency, reduced downtime, and cost savings in industrial settings.
-
 ---
 
 ## Table of Contents
@@ -20,6 +19,8 @@ This project aims to provide an efficient solution for detecting faults in conve
 ## Introduction
 
 Conveyor belt systems are critical in industrial operations. However, faults such as tears, cracks, and thickness degradation can cause significant production losses and safety risks. This project integrates computer vision, ultrasonic sensors, and AI models to detect and diagnose these issues in real time.
+
+   <img src="Hardware%20setup/block.png" alt="Hardware Setup Diagram" width="500"/>
 
 ---
 
@@ -63,7 +64,8 @@ Conveyor belt systems are critical in industrial operations. However, faults suc
    - Connect the ESP32 camera module above the conveyor belt.
    - Position the HC-SR04 ultrasonic sensor near the roller or beneath the conveyor belt.
    - Connect the components to the Arduino Uno board as per the wiring diagram in the repository.
-     ![Hardware Setup Diagram](Hardware setup/conveyorBelt.png)
+      
+        <img src="Hardware%20setup/conveyorBelt.png" alt="Hardware Setup Diagram" width="500"/>
 
 2. **Software Setup**:
    - Clone the repository:
@@ -103,6 +105,17 @@ Conveyor belt systems are critical in industrial operations. However, faults suc
 - High accuracy (>95%) in fault detection.
 - Effective thickness measurement within ±0.1mm precision.
 - Automated damage classification and fault alerts.
+  ### Thickness Measurement Analysis
+
+| S.No | Constant Thickness (mm) | Measured Thickness by Sensor (mm) | Output                                  |
+|------|--------------------------|------------------------------------|-----------------------------------------|
+| 1    | 5.0                      | 4.8                                | Normal                                  |
+| 2    | 5.0                      | 5.1                                | Normal                                  |
+| 3    | 5.0                      | 4.5                                | Damaged and needs replacement           |
+| 4    | 5.0                      | 4.8                                | Normal                                  |
+| 5    | 5.0                      | 4.9                                | Normal                                  |
+| 6    | 5.0                      | 4.9                                | Normal                                  |
+
 
 ---
 
