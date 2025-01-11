@@ -63,7 +63,7 @@ Conveyor belt systems are critical in industrial operations. However, faults suc
    - Connect the ESP32 camera module above the conveyor belt.
    - Position the HC-SR04 ultrasonic sensor near the roller or beneath the conveyor belt.
    - Connect the components to the Arduino Uno board as per the wiring diagram in the repository.
-     ![Hardware Setup Diagram](D:\conveyorBelt)
+     ![Hardware Setup Diagram](Hardware setup/conveyorBelt.png)
 
 2. **Software Setup**:
    - Clone the repository:
