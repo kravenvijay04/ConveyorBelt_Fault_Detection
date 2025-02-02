@@ -1,7 +1,7 @@
 # Conveyor Belt Fault Detection System
 
 This project aims to provide an efficient solution for detecting faults in conveyor belts using advanced technologies such as computer vision, ultrasonic sensors, and machine learning. The system can identify damages, cracks, and abnormalities in conveyor belts and measure their thickness, ensuring enhanced operational efficiency, reduced downtime, and cost savings in industrial settings.
-
+ 
 ---
 
 ## Table of Contents
