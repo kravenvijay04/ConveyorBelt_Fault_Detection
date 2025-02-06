@@ -1,6 +1,6 @@
 #define TRIG_PIN 9
 #define ECHO_PIN 10
-
+ 
 // Speed of sound in air (343.2 m/s or 0.3432 mm/µs)
 const float SOUND_SPEED = 0.3432;
 
