@@ -130,3 +130,4 @@ Conveyor belt systems are critical in industrial operations. However, faults suc
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or new features.
+ 
